@@ -3,30 +3,20 @@
 <?php session_start(); ?>
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>aranoz</title>
     <link rel="icon" href="img/favicon.png">
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate CSS -->
     <link rel="stylesheet" href="css/animate.css">
-    <!-- owl carousel CSS -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- nice select CSS -->
     <link rel="stylesheet" href="css/nice-select.css">
-    <!-- font awesome CSS -->
     <link rel="stylesheet" href="css/all.css">
-    <!-- flaticon CSS -->
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- font awesome CSS -->
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- swiper CSS -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/price_rangs.css">
-    <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <style>
         .widgets_inner .price-input {
@@ -62,10 +52,8 @@
 
         function showUser(category) {
             if (window.XMLHttpRequest) {
-                // code for IE7+, Firefox, Chrome, Opera, Safari
                 xmlhttp = new XMLHttpRequest();
             } else {
-                // code for IE6, IE5
                 xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
             }
             xmlhttp.onreadystatechange = function() {
@@ -92,10 +80,8 @@
                 to = 999999;
             }
             if (window.XMLHttpRequest) {
-                // code for IE7+, Firefox, Chrome, Opera, Safari
                 xmlhttp = new XMLHttpRequest();
             } else {
-                // code for IE6, IE5
                 xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
             }
             xmlhttp.onreadystatechange = function() {
@@ -114,10 +100,8 @@
 
         function addToCart(id) {
             if (window.XMLHttpRequest) {
-                // code for IE7+, Firefox, Chrome, Opera, Safari
                 xmlhttp = new XMLHttpRequest();
             } else {
-                // code for IE6, IE5
                 xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
             }
             xmlhttp.onreadystatechange = function() {
@@ -134,12 +118,7 @@
 </head>
 
 <body>
-    <!--::header part start::-->
     <?php include("header.php"); ?>
-    <!-- Header part end-->
-
-    <!--================Home Banner Area =================-->
-    <!-- breadcrumb start-->
     <section class="breadcrumb breadcrumb_bg">
         <div class="container">
             <div class="row justify-content-center">
@@ -154,9 +133,6 @@
             </div>
         </div>
     </section>
-    <!-- breadcrumb start-->
-
-    <!--================Category Product Area =================-->
     <section class="cat_product_area section_padding">
         <div class="container">
             <div class="row">
@@ -186,100 +162,6 @@
                                 </ul>
                             </div>
                         </aside>
-
-                        <!-- <aside class="left_widgets p_filter_widgets">
-                            <div class="l_w_title">
-                                <h3>Product filters</h3>
-                            </div>
-                            <div class="widgets_inner">
-                                <ul class="list">
-                                    <li>
-                                        <a href="#">Apple</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Asus</a>
-                                    </li>
-                                    <li class="active">
-                                        <a href="#">Gionee</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Micromax</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Samsung</a>
-                                    </li>
-                                </ul>
-                                <ul class="list">
-                                    <li>
-                                        <a href="#">Apple</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Asus</a>
-                                    </li>
-                                    <li class="active">
-                                        <a href="#">Gionee</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Micromax</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Samsung</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-
-                        <aside class="left_widgets p_filter_widgets">
-                            <div class="l_w_title">
-                                <h3>Color Filter</h3>
-                            </div>
-                            <div class="widgets_inner">
-                                <ul class="list">
-                                    <li>
-                                        <a href="#">Black</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Black Leather</a>
-                                    </li>
-                                    <li class="active">
-                                        <a href="#">Black with red</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Gold</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Spacegrey</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside> -->
-
-                        <aside class="left_widgets p_filter_widgets price_rangs_aside">
-                            <div class="l_w_title">
-                                <h3>Price Filter</h3><br>
-                            </div>
-                            <div class="widgets_inner">
-                                <label for="">From: </label>
-                                <input class="price-input" type="text" name="" id="price-from">
-                                <label for="">To: </label>
-                                <input class="price-input" type="text" name="" id="price-to"><br><br>
-                                <button type="button" class=" btn btn-outline-primary btn-sm" onclick="sortByPrice(document.getElementById('price-from').value,document.getElementById('price-to').value);">Filter</button>
-                            </div>
-                            <!-- <div class="range_item">
-                                    <div id="slider-range"></div>
-                                    <input type="text" class="js-range-slider" value="" />
-                                    <div class="d-flex">
-                                        <div class="price_text">
-                                            <p>Price :</p>
-                                        </div>
-                                        <div class="price_value d-flex justify-content-center">
-                                            <input type="text" class="js-input-from" id="amount" readonly />
-                                            <span>to</span>
-                                            <input type="text" class="js-input-to" id="amount" readonly />
-                                        </div>
-                                    </div>
-                                </div> -->
-                            <!-- </div> -->
                         </aside>
                     </div>
                 </div>
@@ -290,31 +172,7 @@
                                 <div class="single_product_menu">
                                     <p><span id="count"></span> Product Found</p>
                                 </div>
-                                <!-- <div class="single_product_menu d-flex">
-                                    <h5>short by : </h5>
-                                    <select>
-                                        <option data-display="Select">name</option>
-                                        <option value="1">price</option>
-                                        <option value="2">product</option>
-                                    </select>
-                                </div>
                                 <div class="single_product_menu d-flex">
-                                    <h5>show :</h5>
-                                    <div class="top_pageniation">
-                                        <ul>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                        </ul>
-                                    </div>
-                                </div> -->
-                                <div class="single_product_menu d-flex">
-                                    <!-- <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="search" aria-describedby="inputGroupPrepend">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="inputGroupPrepend"><i class="ti-search"></i></span>
-                                        </div>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -327,9 +185,6 @@
             </div>
         </div>
     </section>
-    <!--================End Category Product Area =================-->
-
-    <!-- product_list part start-->
     <section class="product_list best_seller">
         <div class="container">
             <div class="row justify-content-center">
@@ -382,28 +237,15 @@
             </div>
         </div>
     </section>
-    <!-- product_list part end-->
-
-    <!--::footer_part start::-->
     <?php include("footer.php"); ?>
-    <!--::footer_part end::-->
-
-    <!-- jquery plugins here-->
     <script src="js/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
     <script src="js/popper.min.js"></script>
-    <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- easing js -->
     <script src="js/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
     <script src="js/swiper.min.js"></script>
-    <!-- swiper js -->
     <script src="js/masonry.pkgd.js"></script>
-    <!-- particles js -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
-    <!-- slick js -->
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
@@ -414,7 +256,6 @@
     <script src="js/mail-script.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/price_rangs.js"></script>
-    <!-- custom js -->
     <script src="js/custom.js"></script>
 </body>
 

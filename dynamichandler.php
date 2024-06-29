@@ -76,18 +76,3 @@ for ($i = 1; $i <= mysqli_num_rows($query_obj); $i++) { ?>
         </nav>
     </div>
 </div>
-<!-- echo "<div class="col-lg-4 col-sm-6">
-        <div class="single_product_item">
-            <form method="post" action="single-product.php">
-                <button type="submit" name="id" value="".$i."">
-                    <img src="img/product/" .$category. "_" .$i. ".png" alt="" />
-                </button>
-            </form>
-            <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>&#8377;150.00</h3>
-                <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
-            </div>
-        </div>
-    </div>";  
- } ?> -->

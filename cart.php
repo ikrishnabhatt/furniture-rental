@@ -3,30 +3,20 @@
 <?php session_start(); ?>
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>aranaz</title>
   <link rel="icon" href="img/favicon.png">
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- animate CSS -->
   <link rel="stylesheet" href="css/animate.css">
-  <!-- owl carousel CSS -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <!-- nice select CSS -->
   <link rel="stylesheet" href="css/nice-select.css">
-  <!-- font awesome CSS -->
   <link rel="stylesheet" href="css/all.css">
-  <!-- flaticon CSS -->
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/themify-icons.css">
-  <!-- font awesome CSS -->
   <link rel="stylesheet" href="css/magnific-popup.css">
-  <!-- swiper CSS -->
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/price_rangs.css">
-  <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="stylesheet" href="css/quantity.css" />
@@ -34,16 +24,12 @@
     function updateCart(id, qty, months) {
       var priceId = 'price' + id;
       if (window.XMLHttpRequest) {
-        // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
       } else {
-        // code for IE6, IE5
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
       }
       xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          /* var mod = document.getElementsByTagName('tbody');
-          mod[0].innerHTML = this.responseText; */
           update = JSON.parse(this.responseText);
           document.getElementById(priceId).innerHTML = '&#8377;' + update.total_price;
           document.getElementById('grand_total').innerHTML = '&#8377;' + update.grand_total;
@@ -56,10 +42,8 @@
 
     function deleteProduct(id) {
       if (window.XMLHttpRequest) {
-        // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
       } else {
-        // code for IE6, IE5
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
       }
       xmlhttp.onreadystatechange = function() {
@@ -75,15 +59,9 @@
 </head>
 
 <body>
-  <!--::header part start::-->
   <?php include("header.php");
   $grand_total = 0;
   ?>
-  <!-- Header part end-->
-
-
-  <!--================Home Banner Area =================-->
-  <!-- breadcrumb start-->
   <section class="breadcrumb breadcrumb_bg">
     <div class="container">
       <div class="row justify-content-center">
@@ -98,10 +76,7 @@
       </div>
     </div>
   </section>
-  <!-- breadcrumb start-->
-
-  <!--================Cart Area =================-->
-  <section class="cart_area padding_top">
+   <section class="cart_area padding_top">
     <div class="container">
       <?php if (isset($_SESSION['login_status'])) { ?>
         <div class="cart_inner">
@@ -120,7 +95,6 @@
                 </thead>
                 <tbody>
                   <?php
-                  //print_r($_SESSION['cart']);
                   foreach ($_SESSION['cart'] as $value) {
                   ?>
                     <tr>
@@ -163,18 +137,6 @@
                       </td>
                     </tr>
                   <?php } ?>
-                  <!-- <tr class="bottom_button">
-                <td>
-                  <a class="btn_1" href="#">Update Cart</a>
-                </td>
-                <td></td>
-                <td></td>
-                <td>
-                  <div class="cupon_text float-right">
-                    <a class="btn_1" href="#">Close Coupon</a>
-                  </div>
-                </td>
-              </tr> -->
                   <tr>
                     <td></td>
                     <td></td>
@@ -185,47 +147,6 @@
                       <h5 id="grand_total">&#8377;<?php echo $_SESSION['grand_total']; ?></h5>
                     </td>
                   </tr>
-                  <!-- <tr class="shipping_area">
-                <td></td>
-                <td></td>
-                <td>
-                  <h5>Shipping</h5>
-                </td>
-                <td>
-                  <div class="shipping_box">
-                    <ul class="list">
-                      <li>
-                        <a href="#">Flat Rate: $5.00</a>
-                      </li>
-                      <li>
-                        <a href="#">Free Shipping</a>
-                      </li>
-                      <li>
-                        <a href="#">Flat Rate: $10.00</a>
-                      </li>
-                      <li class="active">
-                        <a href="#">Local Delivery: $2.00</a>
-                      </li>
-                    </ul>
-                    <h6>
-                      Calculate Shipping
-                      <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </h6>
-                    <select class="shipping_select">
-                      <option value="1">Bangladesh</option>
-                      <option value="2">India</option>
-                      <option value="4">Pakistan</option>
-                    </select>
-                    <select class="shipping_select section_bg">
-                      <option value="1">Select a State</option>
-                      <option value="2">Select a State</option>
-                      <option value="4">Select a State</option>
-                    </select>
-                    <input type="text" placeholder="Postcode/Zipcode" />
-                    <a class="btn_1" href="#">Update Details</a>
-                  </div>
-                </td>
-              </tr> -->
                 </tbody>
               <?php } else {
                 echo "<h4 align = \"center\">Sorry, no items in the cart!!</h4>";
@@ -247,29 +168,15 @@
         </div>
       <?php  } ?>
   </section>
-  <!--================End Cart Area =================-->
-
-  <!--::footer_part start::-->
   <?php include("footer.php") ?>
-  <!--::footer_part end::-->
-
-  <!-- jquery plugins here-->
-  <!-- jquery -->
   <script src="js/jquery-1.12.1.min.js"></script>
-  <!-- popper js -->
   <script src="js/popper.min.js"></script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- easing js -->
   <script src="js/jquery.magnific-popup.js"></script>
-  <!-- swiper js -->
   <script src="js/swiper.min.js"></script>
-  <!-- swiper js -->
   <script src="js/masonry.pkgd.js"></script>
-  <!-- particles js -->
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
-  <!-- slick js -->
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/waypoints.min.js"></script>
@@ -280,7 +187,6 @@
   <script src="js/mail-script.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/price_rangs.js"></script>
-  <!-- custom js -->
   <script src="js/custom.js"></script>
   <script src="js/script.js"></script>
 </body>
