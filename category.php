@@ -200,36 +200,36 @@
                         <div class="single_product_item">
                             <img src="img/product/product_1.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Basic Green Chair</h4>
+                                <h3>₹ 6300</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_2.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Basic Orange Chair</h4>
+                                <h3>₹ 6300</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_3.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Canteen Chair</h4>
+                                <h3>₹ 7100</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_4.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Cushioned Chair</h4>
+                                <h3>₹ 9000</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_5.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Aesthetic Chair</h4>
+                                <h3>₹ 7130</h3>
                             </div>
                         </div>
                     </div>

@@ -178,7 +178,6 @@
       </div>
     </div>
   </section>
-  <!--================Checkout Area =================-->
   <section class="checkout_area padding_top">
     <div class="container">
       <?php if (!isset($_SESSION['login_status'])) {

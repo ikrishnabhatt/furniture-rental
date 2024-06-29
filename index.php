@@ -34,7 +34,7 @@
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
                                             <h1>Ultra Premium Sofas
-                                                Sofa</h1>
+                                                </h1>
                                             <p>Experience the comfort of our most premium sofas at an affordable price.</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
@@ -50,8 +50,7 @@
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
-                                            <h1>Cloth & Wood
-                                                Sofa</h1>
+                                            <h1>Cloth & Wood Sofa</h1>
                                             <p> Elegance and Comfort everything packed in one !</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
@@ -68,7 +67,7 @@
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
                                             <h1>Vegan leather Sofas</h1>
-                                            <p>Sofas made from 100% vegan material , we care for them just like you care for your furniture.</p>
+                                            <p>Sofas made from 100 % vegan material , we care for them just like you care for your furniture.</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
                                     </div>

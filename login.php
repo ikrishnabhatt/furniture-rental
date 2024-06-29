@@ -144,10 +144,13 @@
                                         <div class="form-select" id="default-select">
                                             <select name="city">
                                                 <option value="City" selected>City</option>
-                                                <option value="Belagavi">Belagavi</option>
-                                                <option value="Delhi">Delhi</option>
-                                                <option value="Mumbai">Mumbai</option>
+                                                <option value="Baroda">Baroda</option>
                                                 <option value="Bengaluru">Bengaluru</option>
+                                                <option value="Chennai">Chennai</option>
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Kolkata">Kolkata</option>
+                                                <option value="Mumbai">Mumbai</option>
+                                                <option value="gurugram">Gurugram</option>
                                             </select>
                                         </div>
                                     </div>
@@ -157,10 +160,13 @@
                                         <div class="form-select" id="default-select_1">
                                             <select>
                                                 <option value="1" selected>Country</option>
-                                                <option value="1">Bangladesh</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                                <option value="england">England</option>
                                                 <option value="1">India</option>
-                                                <option value="1">England</option>
-                                                <option value="1">Srilanka</option>
+                                                <option value="srilanka">Srilanka</option>
+                                                <option value="bhutan">Bhutan</option>
+                                                <option value="myanmar">Myanmar</option>
+                                                <option value="china">China</option>
                                             </select>
                                         </div>
                                     </div>
