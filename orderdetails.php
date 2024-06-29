@@ -55,7 +55,6 @@
         </div>
     </section>
 
-    <!--================ confirmation part start =================-->
     <section class="confirmation_part padding_top">
         <div class="container">
             <div class="row">
@@ -133,7 +132,6 @@
             </div>
         </div>
     </section>
-    <!--================ confirmation part end =================-->
 
     <?php include("footer.php") ?>
     <script src="js/jquery-1.12.1.min.js"></script>

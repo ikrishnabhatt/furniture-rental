@@ -131,7 +131,7 @@
   <?php } else { ?>
     <div align="center" class="checkout_btn_inner">
       <h3 class="padding_top">Sorry, no orders found!!</h3><br>
-      <a class="btn_2" href="#" onclick="history.back(-1);">Continue Shopping</a>
+      <a class="btn_2" href="#" onclick="history.back(-1);" target="index.php">Continue Shopping</a>
     </div>
   <?php } ?>
 
