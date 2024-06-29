@@ -48,10 +48,10 @@
             <div class="col-sm-6 col-lg-4">
                 <div class="single_footer_part">
                     <h4>Newsletter</h4>
-                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping
+                    <p>Subscribe to our monthly newsletter for staying updated with modern furnitures every month !
                     </p>
                     <div id="mc_embed_signup">
-                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
+                        <form target="_blank" action="submit" method="get" class="subscribe_form relative mail_part">
                             <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
                             <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">subscribe</button>
                             <div class="mt-10 info"></div>
@@ -66,13 +66,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="copyright_text">
+                    <div class="right_text">
                         <P>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Made for odoo hackathon &copy; 2024 
                         </P>
                     </div>
                 </div>
