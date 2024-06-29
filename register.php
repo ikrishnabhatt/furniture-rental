@@ -1,6 +1,6 @@
 <?php
 
-$errors = array();      // array to hold validation errors
+$errors = array();   
 $jsonf = file_get_contents('php://input');
 $json = json_decode($jsonf);
  

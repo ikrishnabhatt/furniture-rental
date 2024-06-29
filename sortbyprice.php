@@ -14,7 +14,6 @@ if ($category == 1) {
 }
 
 $query_stmt = "SELECT product_id,name,buying_price,renting_price_per_day,cat_name FROM products p,categories c WHERE buying_price " . $price_cond . " AND " . $category_cond . " AND p.category_id = c.category_id";
-//echo $query_stmt;
 $query_obj = mysqli_query($dbh, $query_stmt);
 if (!$query_obj) {
     echo mysqli_error($dbh);
@@ -86,18 +85,4 @@ if(!$result)
             </div>
         </div>
     <?php } ?>
-        <!-- echo "<div class="col-lg-4 col-sm-6">
-                <div class="single_product_item">
-                    <form method="post" action="single-product.php">
-                        <button type="submit" name="id" value="".$i."">
-                            <img src="img/product/" .$category. "_" .$i. ".png" alt="" />
-                        </button>
-                    </form>
-                    <div class="single_product_text">
-                        <h4>Quartz Belt Watch</h4>
-                        <h3>&#8377;150.00</h3>
-                        <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
-                    </div>
-                </div>
-            </div>";  
-         } ?> -->
+       

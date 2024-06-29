@@ -2,30 +2,20 @@
 <html lang="zxx">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>aranaz</title>
   <link rel="icon" href="img/favicon.png">
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- animate CSS -->
   <link rel="stylesheet" href="css/animate.css">
-  <!-- owl carousel CSS -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <!-- nice select CSS -->
   <link rel="stylesheet" href="css/nice-select.css">
-  <!-- font awesome CSS -->
   <link rel="stylesheet" href="css/all.css">
-  <!-- flaticon CSS -->
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/themify-icons.css">
-  <!-- font awesome CSS -->
   <link rel="stylesheet" href="css/magnific-popup.css">
-  <!-- swiper CSS -->
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/price_rangs.css">
-  <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
 
   <style>
@@ -43,7 +33,6 @@
 </head>
 
 <body>
-  <!--::header part start::-->
   <?php session_start();
   include("header.php");
   include("config.php");
@@ -55,11 +44,8 @@
   $booking_id = mysqli_fetch_all($booking_id_query, MYSQLI_ASSOC);
 
   ?>
-  <!-- Header part end-->
-
 
   <!--================Home Banner Area =================-->
-  <!-- breadcrumb start-->
   <section class="breadcrumb breadcrumb_bg">
     <div class="container">
       <div class="row justify-content-center">
@@ -74,7 +60,6 @@
       </div>
     </div>
   </section>
-  <!-- breadcrumb start-->
 
   <!--================Cart Area =================-->
   <?php if (mysqli_num_rows($booking_id_query)) { ?>
@@ -95,10 +80,6 @@
                     <tr>
                       <th scope="col">Order ID<br><?php echo $order_details['booking_id']; ?> </th>
                       <th scope="col">Total<br> &#8377;<?php echo $order_details['grand_total']; ?></th>
-                      <!-- <th scope="col"></th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                  <th scope="col"></th> -->
                     </tr>
                   </thead>
                 </table>
@@ -155,28 +136,17 @@
   <?php } ?>
 
   <!--================End Cart Area =================-->
-
-  <!--::footer_part start::-->
   <?php include("footer.php"); ?>
-  <!--::footer_part end::-->
 
   <!-- jquery plugins here-->
-  <!-- jquery -->
   <script src="js/jquery-1.12.1.min.js"></script>
-  <!-- popper js -->
   <script src="js/popper.min.js"></script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- easing js -->
   <script src="js/jquery.magnific-popup.js"></script>
-  <!-- swiper js -->
   <script src="js/swiper.min.js"></script>
-  <!-- swiper js -->
   <script src="js/masonry.pkgd.js"></script>
-  <!-- particles js -->
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
-  <!-- slick js -->
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/waypoints.min.js"></script>
@@ -187,7 +157,6 @@
   <script src="js/mail-script.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/price_rangs.js"></script>
-  <!-- custom js -->
   <script src="js/custom.js"></script>
 </body>
 

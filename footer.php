@@ -19,7 +19,6 @@
                         <li><a href="">About</a></li>
                         <li><a href="">My Profile</a></li>
                         <li><a href="">Orders</a></li>
-                        <!--  <li><a href="">Sofas</a></li> -->
                     </ul>
                 </div>
             </div>
