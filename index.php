@@ -96,7 +96,7 @@
                 <div class="single_feature_post_text">
                     <p>Premium Quality</p>
                     <h3>Latest from Chairs</h3>
-                    <img src="img/product/product_6.png" alt="Chair" style="max-width: 100%; height: auto;">
+                    <img src="img/chair_nobg.png" alt="Chair" style="max-width: 100%; height: auto;">
                     <form id="form1" method="get" action="category.php?c=chair">
                         <button type="submit" name="c" value="chair" class="feature_btn" style="background: none;">EXPLORE NOW <i class="fas fa-play"></i></button>
                     </form>
@@ -116,7 +116,7 @@
                 <div class="single_feature_post_text">
                     <p>Premium Quality</p>
                     <h3>Latest from Dining Tables</h3>
-                    <img src="img/product/categories/dining/dining 1/dining 1 (1).jpeg" alt="Dining Table" style="max-width: 100%; height: auto;">
+                    <img src="img/table_nobg.png" alt="Dining Table" style="max-width: 100%; height: auto;">
                     <form id="form3" method="get" action="category.php?c=dining">
                         <button type="submit" name="c" value="dining" class="feature_btn" style="background: none;">EXPLORE NOW <i class="fas fa-play"></i></button>
                     </form>
@@ -126,7 +126,7 @@
                 <div class="single_feature_post_text">
                     <p>Premium Quality</p>
                     <h3>Latest from Sofa</h3>
-                    <img src="img/product/categories/sofa/sofa 1/sofa 1 (1).jpeg" alt="Sofa" style="max-width: 100%; height: auto;">
+                    <img src="img/sofa.jpeg" alt="Sofa" style="max-width: 100%; height: auto;">
                     <form id="form4" method="get" action="category.php?c=sofa">
                         <button type="submit" name="c" value="sofa" class="feature_btn" style="background: none;">EXPLORE NOW <i class="fas fa-play"></i></button>
                     </form>
