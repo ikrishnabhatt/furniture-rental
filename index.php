@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>aranoz</title>
+    <title>WittyWarriors</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -33,10 +33,9 @@
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
-                                            <h1>Wood & Cloth
+                                            <h1>Ultra Premium Sofas
                                                 Sofa</h1>
-                                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra</p>
+                                            <p>Experience the comfort of our most premium sofas at an affordable price.</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
                                     </div>
@@ -53,8 +52,7 @@
                                         <div class="banner_text_iner">
                                             <h1>Cloth & Wood
                                                 Sofa</h1>
-                                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra</p>
+                                            <p> Elegance and Comfort everything packed in one !</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
                                     </div>
@@ -69,10 +67,8 @@
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
                                         <div class="banner_text_iner">
-                                            <h1>Wood & Cloth
-                                                Sofa</h1>
-                                            <p>Incididunt ut labore et dolore magna aliqua quis ipsum
-                                                suspendisse ultrices gravida. Risus commodo viverra</p>
+                                            <h1>Vegan leather Sofas</h1>
+                                            <p>Sofas made from 100% vegan material , we care for them just like you care for your furniture.</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
                                     </div>
@@ -160,8 +156,8 @@
                                                     </button>
                                                 </form>
                                                 <div class="single_product_text">
-                                                    <h4>Quartz Belt Watch</h4>
-                                                    <h3>&#8377;150.00</h3>
+                                                    <h4>Cafe Chairs</h4>
+                                                    <h3>₹7120</h3>
                                                     <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
                                                 </div>
                                             </div>
@@ -221,36 +217,36 @@
                         <div class="single_product_item">
                             <img src="img/product/product_1.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Basic Green Chair </h4>
+                                <h3>₹ 6200</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_2.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Basic Orange Chair</h4>
+                                <h3>₹ 6200</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_3.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Designer Chair</h4>
+                                <h3>₹ 6750</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_4.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Cushioned Chair</h4>
+                                <h3>₹ 7500</h3>
                             </div>
                         </div>
                         <div class="single_product_item">
                             <img src="img/product/product_5.png" alt="">
                             <div class="single_product_text">
-                                <h4>Quartz Belt Watch</h4>
-                                <h3>$150.00</h3>
+                                <h4>Aesthetic Photoshoot Chair</h4>
+                                <h3>₹ 6900</h3>
                             </div>
                         </div>
                     </div>
