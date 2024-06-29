@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>aranoz</title>
+  <title>WittyWarriors</title>
   <link rel="icon" href="img/favicon.png">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
@@ -65,7 +65,6 @@
       </div>
     </div>
   </section>
-  <!-- breadcrumb start-->
   <div class="product_image_area section_padding">
     <div class="container">
       <div class="row s_product_inner justify-content-between">
@@ -124,7 +123,6 @@
       </div>
     </div>
   </div>
-  <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -141,8 +139,6 @@
       </div>
     </div>
   </div>
-
-  <!--------------Product Description Area ------------->
   <section class="product_description_area">
     <div class="container">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -159,9 +155,6 @@
       </div>
     </div>
   </section>
-  <!--================End Product Description Area =================-->
-
-  <!-- product_list part start-->
   <section class="product_list best_seller">
     <div class="container">
       <div class="row justify-content-center">
@@ -177,36 +170,36 @@
             <div class="single_product_item">
               <img src="img/product/product_1.png" alt="">
               <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>$150.00</h3>
+                <h4>Stylish Green Chair</h4>
+                <h3>9000</h3>
               </div>
             </div>
             <div class="single_product_item">
               <img src="img/product/product_2.png" alt="">
               <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>$150.00</h3>
+                <h4>Stylish Orange Chair</h4>
+                <h3>9000</h3>
               </div>
             </div>
             <div class="single_product_item">
               <img src="img/product/product_3.png" alt="">
               <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>$150.00</h3>
+                <h4>Aesthetic Chair</h4>
+                <h3>15000</h3>
               </div>
             </div>
             <div class="single_product_item">
               <img src="img/product/product_4.png" alt="">
               <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>$150.00</h3>
+                <h4>Retro Chair</h4>
+                <h3>17000</h3>
               </div>
             </div>
             <div class="single_product_item">
               <img src="img/product/product_5.png" alt="">
               <div class="single_product_text">
-                <h4>Quartz Belt Watch</h4>
-                <h3>$150.00</h3>
+                <h4>Bar Chair</h4>
+                <h3>5000</h3>
               </div>
             </div>
           </div>
@@ -214,29 +207,15 @@
       </div>
     </div>
   </section>
-  <!-- product_list part end-->
-
-  <!--::footer_part start::-->
   <?php include("footer.php") ?>
-  <!--::footer_part end::-->
-
-  <!-- jquery plugins here-->
-  <!-- jquery -->
   <script src="js/jquery-1.12.1.min.js"></script>
-  <!-- popper js -->
   <script src="js/popper.min.js"></script>
-  <!-- bootstrap js -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- easing js -->
   <script src="js/jquery.magnific-popup.js"></script>
-  <!-- swiper js -->
   <script src="js/lightslider.min.js"></script>
-  <!-- swiper js -->
   <script src="js/masonry.pkgd.js"></script>
-  <!-- particles js -->
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
-  <!-- slick js -->
   <script src="js/slick.min.js"></script>
   <script src="js/swiper.jquery.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
@@ -247,7 +226,6 @@
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/stellar.js"></script>
-  <!-- custom js -->
   <script src="js/theme.js"></script>
   <script src="js/custom.js"></script>
   <script>
